@@ -9,7 +9,7 @@
 #import "ImageBrowserSubView.h"
 #import "ImageBrowserModel.h"
 #import "ImageBrowserHeader.h"
-#import <SDWebImage/UIImageView+WebCache.h>
+//#import <SDWebImage/UIImageView+WebCache.h>
 
 @interface ImageBrowserSubView ()<UIScrollViewDelegate>
 @property(nonatomic,strong)ImageBrowserModel * imageBrowserModel;
@@ -43,11 +43,11 @@
     _imageBrowserModel.bigScrollView = self.subScrollView;
     _imageBrowserModel.bigImageView = self.subImageView;
     __weak typeof (self)ws = self;
-    [self.subImageView sd_setImageWithURL:[NSURL URLWithString:_imageBrowserModel.urlStr] placeholderImage:_imageBrowserModel.smallImageView.image completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
-        if (!error) {
-            [ws updateSubScrollViewSubImageView];
-        }
-    }];
+//    [self.subImageView sd_setImageWithURL:[NSURL URLWithString:_imageBrowserModel.urlStr] placeholderImage:_imageBrowserModel.smallImageView.image completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
+//        if (!error) {
+//            [ws updateSubScrollViewSubImageView];
+//        }
+//    }];
     [self updateSubScrollViewSubImageView];
 }
 

@@ -1,16 +1,16 @@
 PODS:
-  - cx_demo (0.1.0)
+  - cx_demo (0.2.0)
 
 DEPENDENCIES:
-  - cx_demo
+  - cx_demo (from `../`)
 
-SPEC REPOS:
-  https://github.com/caodakeng/repo.git:
-    - cx_demo
+EXTERNAL SOURCES:
+  cx_demo:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  cx_demo: 3803017676c01477876d47760295e4133ab1e14e
+  cx_demo: aa7d928819f5b4865eda98620bf004066cd436ed
 
-PODFILE CHECKSUM: 6615ca4a785de9bbf3ba0914b8a8ec29f535c47a
+PODFILE CHECKSUM: ca93640ba26147538e26b9d49e99b5c9d38c9995
 
 COCOAPODS: 1.8.4
