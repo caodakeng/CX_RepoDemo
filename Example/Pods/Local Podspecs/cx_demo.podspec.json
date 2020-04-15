@@ -18,10 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "cx_demo/Classes/**/*",
-  "dependencies": {
-    "SDWebImage": [
-
-    ]
-  }
+  "source_files": "cx_demo/Classes/**/*"
 }

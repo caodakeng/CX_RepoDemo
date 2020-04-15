@@ -7,7 +7,7 @@
 //
 
 #import "ImageBrowserModel.h"
-#import <SDWebImage/SDImageCache.h>
+//#import <SDWebImage/SDImageCache.h>
 #import "ImageBrowserHeader.h"
 
 @implementation ImageBrowserModel
@@ -25,18 +25,18 @@
 }
 
 - (BOOL)isCacheImageKey:(NSString *)key {
-    if ([[SDImageCache sharedImageCache] imageFromCacheForKey:key]) {
-        return YES;
-    }
+//    if ([[SDImageCache sharedImageCache] imageFromCacheForKey:key]) {
+//        return YES;
+//    }
     return NO;
 }
 
 - (UIImage *)getCurrentImage {
-    if ([self isCacheImageKey:self.urlStr]) {
-        return [[SDImageCache sharedImageCache] imageFromCacheForKey:self.urlStr];
-    } else {
+//    if ([self isCacheImageKey:self.urlStr]) {
+//        return [[SDImageCache sharedImageCache] imageFromCacheForKey:self.urlStr];
+//    } else {
         return _smallImageView.image;
-    }
+//    }
 }
 
 - (CGRect)imageViewframeShowWindow {

@@ -1,7 +1,7 @@
 use_frameworks!
 
-source 'https://github.com/caodakeng/repo.git'
-source 'https://github.com/CocoaPods/Specs.git' # cocoapods 公用仓库地址
+#source 'https://github.com/caodakeng/repo.git'
+#source 'https://github.com/CocoaPods/Specs.git' # cocoapods 公用仓库地址
 
 platform :ios, '8.0'
 
