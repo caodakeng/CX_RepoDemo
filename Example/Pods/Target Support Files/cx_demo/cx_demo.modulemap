@@ -1,0 +1,6 @@
+framework module cx_demo {
+  umbrella header "cx_demo-umbrella.h"
+
+  export *
+  module * { export * }
+}

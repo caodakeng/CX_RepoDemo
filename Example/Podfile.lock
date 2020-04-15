@@ -1,0 +1,16 @@
+PODS:
+  - cx_demo (0.1.0)
+
+DEPENDENCIES:
+  - cx_demo (from `../`)
+
+EXTERNAL SOURCES:
+  cx_demo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  cx_demo: 36a1482a9fa2a490d6dda6637496efee3aad3cc2
+
+PODFILE CHECKSUM: bf36c094811800821e07970159ae6d87c3615990
+
+COCOAPODS: 1.8.4
