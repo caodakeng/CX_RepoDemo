@@ -32,6 +32,14 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'cx_demo/Classes/**/*'
   
+  s.subspec 'Image_Browser' do |ss|
+    ss.source_files = 'cx_demo/Classes/Image_Browser/**/*'
+  end
+  
+  s.subspec 'YSLog' do |ss|
+    ss.source_files = 'cx_demo/Classes/YSLog/**/*'
+  end
+  
   # s.resource_bundles = {
   #   'cx_demo' => ['cx_demo/Assets/*.png']
   # }

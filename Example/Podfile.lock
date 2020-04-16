@@ -1,5 +1,9 @@
 PODS:
-  - cx_demo (0.2.0)
+  - cx_demo (0.3.0):
+    - cx_demo/Image_Browser (= 0.3.0)
+    - cx_demo/YSLog (= 0.3.0)
+  - cx_demo/Image_Browser (0.3.0)
+  - cx_demo/YSLog (0.3.0)
 
 DEPENDENCIES:
   - cx_demo (from `../`)
@@ -9,8 +13,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  cx_demo: aa7d928819f5b4865eda98620bf004066cd436ed
+  cx_demo: 0b5feba76182663e82c11fd9259eba1847d652f5
 
-PODFILE CHECKSUM: 7d1a934f6de5d2965e1652e0d005a66420b5a469
+PODFILE CHECKSUM: 6dd75af0149f3e547c45f0a762a6cf697748eff4
 
 COCOAPODS: 1.8.4
